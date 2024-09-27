@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Thông tin thanh toán - Thanh Tâm Trà Quán</title>
+  <link href="https://fonts.googleapis.com/css2?family=Alata&family=Calistoga&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js"></script>
+  <!-- custom css -->
+  <link rel="stylesheet" href="../Style/Instruction.css" />    
+</head>
+<body>
+  <!-- Back to Home Button -->
+  <a href="../index.html" class="back-to-home"> Về lại trang Chủ 👉</a>
+
+<!-- header -->
+<header class="header">
+  <div class="banner">
+    <!-- Áp dụng font Calistoga cho "Thanh Tâm Trà Quán" -->
+    <h3 class="banner-subtitle"style="color: rgb(107, 235, 95); white-space: nowrap; font-family: 'Calistoga', cursive;">
+      Thanh Tâm Trà Quán🍵
+    </h3>
+    <!-- Áp dụng font Alata cho "Thông tin thanh toán" -->
+    <h1 class="banner-title" style="font-size: 24px;">
+      Hướng dẫn đặt hàng
+    </h1>
+  </div>
+</header>
+
+ <!-- Nội dung hướng dẫn đặt hàng -->
+ <section class="product-detail" style="background-color: #9db2b3; text-align: center;">
+    <div class="product-info">
+      <h2 style="font-size: 40px;color: #d64e36;">Các bước hướng dẫn đặt hàng</h2>
+      
+      <!-- Bước 1 -->
+       <br>
+      <h3 style="font-size: 30px;">Bước 1: Chọn sản phẩm bạn muốn mua và click vào "Thêm vào giỏ hàng"</h3>
+      <p style="font-size: 24px;">Truy cập trang sản phẩm mà bạn yêu thích, sau đó click vào.</p>
+      
+      <!-- Hình ảnh minh họa cho bước 1 -->
+      <img src="../images/buoc1-1.jpg" style="width: 100%;
+       max-width: 900px; margin: 20px auto;display: block;">
+
+       <p style="font-size: 24px;">Nhấn vào nút "Thêm vào giỏ hàng" </p>
+       <img src="../images/buoc1-2.jpg" style="width: 100%;
+       max-width: 900px; margin: 20px auto;display: block;">
+
+       <p style="font-size: 24px;">khi hiện dòng chữ này hãy nhấn "OK" </p> 
+       <img src="../images/buoc1-3.jpg" style="width: 100%;
+       max-width: 900px; margin: 20px auto;display: block;">
+
+      <!-- Bước 2 -->
+       <br>
+      <h3 style="font-size: 30px;">Bước 2: khi bạn chọn xong món hàng cần mua, hãy nhấn nút "Đặt hàng"</h3>
+      <p style="font-size: 24px;">Bấm vào nút "Trang chủ" để trở về giao diện ban đầu.</p>
+      
+      <!-- Hình ảnh minh họa cho bước 1 -->
+      <img src="../images/buoc2-1.jpg" style="width: 100%;
+       max-width: 900px; margin: 20px auto;display: block;">
+
+       <p style="font-size: 24px;">Bạn có thể kéo xuống hàng cuối cùng hoặc vào thanh menu, nhấn vào "Đặt hàng". </p>
+       <img src="../images/buoc2-2.jpg" style="width: 100%;
+       max-width: 900px; margin: 20px auto;display: block;">
+       <img src="../images/buoc2-3.jpg" style="width: 100%;
+       max-width: 900px; margin: 20px auto;display: block;">
+       <img src="../images/buoc2-4.jpg" style="width: 100%;
+       max-width: 900px; margin: 20px auto;display: block;">
+
+
+      <!-- Bước 3 -->
+      <br>
+      <h3 style="font-size: 30px;">Bước 3: Xuất file thông tin mua hàng và thanh toán</h3>
+      <p style="font-size: 24px;">Click vào nút "Xuất file thông tin mua hàng".</p>
+      <img src="../images/buoc3-1.jpg" style="width: 100%;
+       max-width: 900px; margin: 20px auto;display: block;">
+
+       <p style="font-size: 24px;">Lúc này sẽ có 1 file txt được tải về, click vào để xem thông tin mua hàng. </p>
+       <img src="../images/buoc3-2.jpg" style="width: 100%;
+       max-width: 900px; margin: 20px auto;display: block;">
+       <img src="../images/buoc3-3.jpg" style="width: 100%;
+       max-width: 900px; margin: 20px auto;display: block;">
+
+       <p style="font-size: 24px;">tắt file và bắt đầu thanh toán đơn hàng. </p>
+       <img src="../images/buoc3-4.jpg" style="width: 100%;
+       max-width: 900px; margin: 20px auto;display: block;">
+       <img src="../images/buoc3-5.jpg" style="width: 100%;
+       max-width: 900px; margin: 20px auto;display: block;">
+
+       <p style="font-size: 24px;">Sau đó click vào nút bên dưới để chuyển sang google biểu mẫu điền thông tin. </p>
+       <img src="../images/buoc3-6.jpg" style="width: 100%;
+       max-width: 900px; margin: 20px auto;display: block;">
+
+      <!-- Bước 4 -->
+      <br>
+      <h3 style="font-size: 30px;">Bước 4: Điền thông tin đơn mua hàng</h3>
+      <p style="font-size: 24px;">Click dấu tick để lưu thông tin điền mail.</p>
+      <img src="../images/buoc4-1.jpg" style="width: 100%;
+       max-width: 900px; margin: 20px auto;display: block;">
+
+       <p style="font-size: 24px;">Điền thông tin giao hàng. </p>
+       <img src="../images/buoc4-2.jpg" style="width: 100%;
+       max-width: 900px; margin: 20px auto;display: block;">
+
+       <p style="font-size: 24px;">Gửi ảnh "Đơn Hàng" ban nãy khi xuất file. </p>
+       <img src="../images/buoc4-3.jpg" style="width: 100%;
+       max-width: 900px; margin: 20px auto;display: block;">
+       <img src="../images/buoc4-4.jpg" style="width: 100%;
+       max-width: 900px; margin: 20px auto;display: block;">
+       <img src="../images/buoc4-5.jpg" style="width: 100%;
+       max-width: 900px; margin: 20px auto;display: block;">
+       <img src="../images/buoc4-6.jpg" style="width: 100%;
+       max-width: 900px; margin: 20px auto;display: block;">
+
+       <p style="font-size: 24px;">Cuối cùng bấm nút "Gửi" để hoàn tất. </p>
+       <img src="../images/buoc4-7.jpg" style="width: 100%;
+       max-width: 900px; margin: 20px auto;display: block;">
+       <img src="../images/buoc4-8.jpg" style="width: 100%;
+       max-width: 900px; margin: 20px auto;display: block;">
+
+    </div>
+  </section>
+
+  
+
+  <!-- footer -->
+  <footer class="footer">
+    <div class="section-center">
+      <p class="footer-text">&copy; 2024 Thanh Tâm Trà Quán 🍵</p>
+    </div>
+  </footer>
+  
+</body>
+</html>

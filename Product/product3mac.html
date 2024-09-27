@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chi Tiết Sản Phẩm - Thanh Tâm Trà Quán</title>
+  <link href="https://fonts.googleapis.com/css2?family=Alata&family=Calistoga&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../styles.css">
+  <script
+    src="https://kit.fontawesome.com/a076d05399.js"
+    crossorigin="anonymous"
+  ></script>
+  <!-- custom css -->
+  <link rel="stylesheet"  href="../Style/styleProduct.css" />  
+</head>
+<body>
+
+  <!-- header từ trang index.html gốc -->
+  <header class="header">
+    <div class="banner">
+      <!-- Áp dụng font Calistoga cho "Thanh Tâm Trà Quán🍵" và giãn khoảng cách giữa các chữ -->
+      <h3 class="banner-subtitle" style="color: rgb(107, 235, 95); white-space: nowrap; font-family: 'Calistoga', cursive;">
+        Thanh Tâm Trà Quán🍵
+      </h3>
+      <!-- Thu nhỏ kích cỡ chữ của "Chi Tiết Sản Phẩm" -->
+      <h1 class="banner-title" style="font-family: 'Alata', sans-serif; font-size: 24px;">
+        Chi Tiết Sản Phẩm
+      </h1>
+    </div>
+  </header>
+  
+  
+  
+
+<!-- product detail -->
+<section class="product-detail">
+  <!-- Hình ảnh sản phẩm nằm bên trái -->
+  <img src="../images/product3mac.jpg" alt="product image" id="productImage">
+  
+  <!-- Thông tin sản phẩm bên phải -->
+  <div class="product-info">
+    <h2>Tên Sản Phẩm:<span style="color: #f39c12;"> Đơn Tùng Tống Chủng</span></h2>
+    <p class="price">1.000.000đ</p><span class="unit">/hộp (125g)</span> 
+    <!-- Thêm nút "Thêm vào giỏ hàng" -->
+<button id="addToCartBtn" class="main-btn" style="margin-top: 20px;">Thêm vào giỏ hàng</button>
+<button id="decreaseQtyBtn" class="main-btn" style="padding: 5px 10px;">-</button>
+  <span id="quantity" style="margin: 0 15px; font-size: 18px;">1</span>
+  <button id="increaseQtyBtn" class="main-btn" style="padding: 5px 10px;">+</button>
+    <p style="color: #f39c12;">Xuất xứ: <span style="color: #ecf0f1;">Núi Ô Đông, Triều Châu, Trung Quốc</span><br><br>
+
+      <span style="color: #f39c12;">Mô tả sản phẩm:</span>
+      <p style="color: #ecf0f1;">
+        <span style="color: #2ecc71;">Đơn Tùng Tống Chủng</span> là một loại trà Ô Long nổi tiếng với hương vị đặc trưng mạnh mẽ và sắc nét. 
+        Trà được chế biến từ những lá trà lớn, thu hái thủ công từ các cây trà cổ thụ trên núi Ô Đông.
+        Trà có màu nước trong vắt, sắc vàng óng ánh cùng hương thơm nồng nàn của hoa và gỗ, kết hợp
+        với vị trà đậm đà, tạo nên một trải nghiệm thưởng trà đầy quyến rũ. Đơn Tùng Tống Chủng mang trong 
+        mình những giá trị văn hóa truyền thống, đồng thời là một loại trà lý tưởng cho những ai yêu thích 
+
+        hương vị mạnh mẽ.
+      </p>
+    </p>
+
+    <!-- Nội dung ẩn sẽ hiển thị khi bấm "Xem thêm" -->
+    <div id="moreContent" style="display: none; margin-top: 20px;">
+      <p style="color: #ecf0f1;">
+        <span style="color: #f39c12;">Hương vị:</span><br>
+        Khi thưởng thức, <span style="color: #2ecc71;">Đơn Tùng Tống Chủng</span> bạn sẽ cảm nhận được vị trà đậm đà với một chút đắng nhẹ ban đầu, sau đó chuyển dần sang vị ngọt thanh tao. Hương thơm đặc trưng của loại trà này kết hợp giữa hương hoa và hương gỗ, đem lại cảm giác thư thái, dễ chịu. Hậu vị kéo dài và phức hợp, tạo nên sự cân bằng hoàn hảo giữa các tầng hương vị.<br><br>
+        <span style="color: #f39c12;">Công dụng:</span><br>
+        <span style="color: #2ecc71;">Thanh lọc cơ thể:</span> Giúp loại bỏ độc tố, thanh nhiệt và giúp cơ thể nhẹ nhàng, khỏe mạnh.<br>
+        <span style="color: #2ecc71;">Thư giãn tinh thần:</span> Hương thơm nhẹ nhàng từ trà có tác dụng xoa dịu căng thẳng, giúp thư giãn và giảm stress hiệu quả.<br>
+        <span style="color: #2ecc71;">Chống lão hóa:</span> Chứa nhiều chất chống oxy hóa, trà giúp bảo vệ tế bào khỏi tác hại của các gốc tự do, hỗ trợ sức khỏe tổng thể và làm đẹp da.<br>
+        <span style="color: #2ecc71;">Hỗ trợ tiêu hóa:</span> Trà Ô Long có tác dụng kích thích tiêu hóa, cải thiện sức khỏe đường ruột và ngăn ngừa các vấn đề về tiêu hóa.<br><br>
+        <span style="color: #f39c12;">Cách pha trà:</span><br>
+        Dùng khoảng 5-7g trà cho mỗi ấm (khoảng 200ml nước).<br>
+        Đổ nước nóng (khoảng 90-95°C) vào ấm và hãm trà trong 30 giây - 1 phút.<br>
+        Thưởng thức từ 3-5 lần nước, mỗi lần pha cần tăng thời gian hãm để cảm nhận rõ hơn hương vị phức tạp của trà.
+      </p>
+    </div>
+
+    <!-- Nút "Xem chi tiết" sẽ di chuyển xuống dưới khi bấm -->
+    <div style="text-align: center; margin-top: 20px;">
+      <button id="showMoreBtn" class="main-btn" style="padding: 10px 20px; cursor: pointer;">Xem chi tiết</button>
+    </div>
+
+    <a href="../index.html" class="main-btn" style="margin-top: 20px;">Trở về trang chủ</a> <!-- Nút đã được dịch xuống dưới -->
+  </div>
+</section>
+
+
+  <!-- Footer từ trang gốc -->
+  <footer class="footer">
+    <div class="section-center">
+      <p class="footer-text">&copy; 2024 Thanh Tâm Trà Quán 🍵</p>
+    </div>
+  </footer>
+
+  <!-- JavaScript để điều khiển zoom -->
+  <script>
+
+        // Biến để theo dõi số lượng sản phẩm
+let quantity = 1;
+
+// Nút tăng/giảm số lượng
+const decreaseQtyBtn = document.getElementById('decreaseQtyBtn');
+const increaseQtyBtn = document.getElementById('increaseQtyBtn');
+const quantityDisplay = document.getElementById('quantity');
+
+// Xử lý nút giảm số lượng
+decreaseQtyBtn.addEventListener('click', function() {
+  if (quantity > 1) {
+    quantity--;
+    quantityDisplay.innerText = quantity;
+  }
+});
+
+// Xử lý nút tăng số lượng
+increaseQtyBtn.addEventListener('click', function() {
+  quantity++;
+  quantityDisplay.innerText = quantity;
+});
+
+// Thêm vào giỏ hàng
+const addToCartBtn = document.getElementById('addToCartBtn');
+
+// Thông tin sản phẩm cần lưu
+const productInfo = {
+  name: 'Trà Đơn Tùng Tống Chủng (Núi Ô Đông, Triều Châu)',
+  unit: '125g',
+  price: 1000000, // Giá tiền dạng số để dễ tính toán
+  addedTime: new Date().toLocaleString('vi-VN'), // Thêm thời gian người dùng thêm vào giỏ hàng
+  quantity: quantity // Lưu số lượng sản phẩm
+};
+
+// Khi bấm vào nút thêm vào giỏ hàng
+addToCartBtn.addEventListener('click', function() {
+  // Cập nhật số lượng trước khi thêm vào giỏ hàng
+  productInfo.quantity = quantity;
+
+  // Lấy giỏ hàng hiện tại từ localStorage, nếu chưa có thì tạo mảng rỗng
+  let cart = JSON.parse(localStorage.getItem('cart')) || [];
+  
+  // Thêm sản phẩm vào giỏ hàng
+  cart.push(productInfo);
+  
+  // Lưu lại giỏ hàng vào localStorage
+  localStorage.setItem('cart', JSON.stringify(cart));
+  
+  // Thông báo cho người dùng biết đã thêm sản phẩm vào giỏ
+  alert(`Sản phẩm đã được thêm vào giỏ hàng! Số lượng: ${quantity}`);
+});
+
+
+
+
+    const productImage = document.getElementById('productImage');
+    let isZoomed = false;
+
+    productImage.addEventListener('click', function() {
+      if (isZoomed) {
+        productImage.classList.remove('zoomed'); // Thu nhỏ lại
+        isZoomed = false;
+      } else {
+        productImage.classList.add('zoomed'); // Phóng to
+        isZoomed = true;
+      }
+    });
+
+
+
+    // JavaScript để điều khiển ẩn/hiện nội dung 
+    const showMoreBtn = document.getElementById('showMoreBtn');
+    const moreContent = document.getElementById('moreContent');
+    let isExpanded = false;
+  
+    showMoreBtn.addEventListener('click', function() {
+      if (!isExpanded) {
+        moreContent.style.display = 'block'; // Hiển thị nội dung
+        showMoreBtn.innerText = 'Ẩn bớt'; // Thay đổi nút thành "Ẩn bớt"
+        showMoreBtn.style.marginTop = '20px'; // Đặt nút xuống dưới nội dung
+      } else {
+        moreContent.style.display = 'none'; // Ẩn nội dung
+        showMoreBtn.innerText = 'Xem thêm'; // Thay đổi nút thành "Xem thêm"
+        showMoreBtn.style.marginTop = '20px'; // Đưa nút về vị trí ban đầu
+      }
+      isExpanded = !isExpanded; // Chuyển đổi trạng thái
+    });
+  </script>
+</body>
+</html>
